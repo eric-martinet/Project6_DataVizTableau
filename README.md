@@ -1,62 +1,40 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Project 6 | Descriptive, predictive analysis and visualization in Tableau
+# Data Viz in Tableau
+*Giang Le & Eric Martinet*
+
+**Data Analytics bootcamp @IronHack Paris, Feb-Apr 22**
+
+## Dashboard description
+
+Our dashboard, available on [Tableau Public] (https://public.tableau.com/app/profile/eric.martinet/viz/IronHack-Project6_DataVizTableau/Dashboard), summarises data about cross-border payments based on SWIFT.
+
+> The first part, on the left and highlighted in blue, displays the 4 KPIs that any treasury manager will want to see and assess immediately, and a chart about issue forecast.
+
+### Average Charge % per Transaction
+This KPI shows the average fee paid for transaction expressed as a % of the total transaction amount.
+
+It is one of the most important piece of information  as you will want to make sure that the price of this banking service remains as low as possible.
+
+### Average completion time
+This is the average time it takes for a transaction to be completed, measured from the time it is initiated.
+
+Again, it is a crucial piece of information as you want to make sure that your cross-border payments are processed in a timely manner, otherwise it could jeopardise your relationship with your creditors (suppliers, etc.) and thus your business.
+
+### Maximum completion time
+The previous KPI only provides partial information about cross-border payments processing duration: it is not enough that your payments are timely completed "in average", you will also want to make sure that none of your payment takes too much time.
+
+### Probability of delay
+Compared to your expectations, your contractual commitments with your creditors or your service level agreement with your bank (hence the possibility to select the cutoff), this KPI shows the probability of a payment to take extra time to be completed. With the average and the max time, it gives you a critical insight on the distribution of your cross-border processing times, without making it too complex to read (which would be the case with a box-and-whisker plot for instance).
+
+### Issue forecast
+In association with the 4 KPIs described above, this chart enables you to see which proportion of your payments are likely to face issues such as a pending or a cancellation status.
 
 
+> The second part, in the center, shows transactions and charges based on various dimensions.
 
-## Content
-- [Introduction](#introduction)
-- [Project Goal](#project-goal)
-- [Requirements](#requirements)
-- [Necessary Deliverables](#necessary-deliverables)
-- [Presentation](#presentation)
-- [Suggested Ways to Get Started](#suggested-ways-to-get-started)
+### Initiated Payments by Month
+This chart displays the seasonality of your cross-border payments. For the ease of reading, all amounts are converted in the functional currency of the company, i.e. USD.
 
-
-## Introduction
-
-This project aims to practice in descriptive and prescriptive statistics  and dashboards creation with Tableau.
-
-
-
-
-## Project Goal
-The goals of this project is to develop the dashboard in Tableau. 
-The dashboard should reflect the descriptive and predictive analysis of data and explain the state of the payments.
-
-
-
-
-## Requirements
-
-
-* We are going to use Trello for the project management. This time you will need to indicate there not only the names of the tasks but tasks description also. 
-* The domain is related to the crossborder payments, please read the recommended sourses to get knowledge about the subject.
-* Examine the dataset for the possible issues
-* Develop the system of Key Performance Indicators (or the system of widgets that should be shown). Please keep in mind the must-have answers:
-- Average time for transaction
-- Status of payment
-- Total charges per period
-- Payment status forecast
-- Issues in correspondence chain
-- Probability of delay
-- Troubles forecast
-* Develop the idea of your dashboard:
- - what exactly you want to show?
- - what should be the layout?
- - which widgets represent the most powerful insights?
-* Your dashboard should give the possibility to filter the data
-* Please note, that you need to have at least 12 widgets that describe your data.
-* Please note, you have at least 3 widgets that should reflect forecasted values.
-* Describe the idea of the dashboard and each widget (what you want to show, why the particular chart is chosen), calculations in the readme file.
-* After your dashboard is ready, please, create a presentation.
-
-Non-functional requirements:
-1. Use the corporate colors of the product
-2. Add logo of the product
-3. Add the SWIFT compatible label
-Please check the website https://paylocator.com/ for having mentioned detailes.
-
-## Necessary Deliverables
-
-The following deliverables should be pushed to your Github repo for this chapter.
+### Completed Payments by Creditor
+This chart enables you to see which creditor have been paid which total amount in the selected period. Again, all amounts are converted in the functional currency of the company.
