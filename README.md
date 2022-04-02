@@ -38,3 +38,23 @@ This chart displays the seasonality of your cross-border payments. For the ease 
 
 ### Completed Payments by Creditor
 This chart enables you to see which creditor have been paid which total amount in the selected period. Again, all amounts are converted in the functional currency of the company.
+
+### Total Charges by Month
+This chart displays the total charges incurred per month given that the transactions were completed. The total charges were all calculated and exchanged to USD based on the currency rate on the date of the transactions.
+
+### Average Charges by Creditor
+
+This chart provides the average charge rate in percentage per creditors. It enables you to compare the rate between different creditors. 
+
+### Amount by Latest status
+
+This graph helps you to have an overview of the status of all transactions including new, pending, processing, cancelled, delivered and completed. 
+
+### Transactions of selected Status
+
+This table is a detailed one showing all transactions per creditors with an option of selecting last status of the transactions. This includes Creditors, TransactionID, Bank, Initital Currency and Amount in USD/EUR and the amount exchanged into USD. 
+
+### Map of Payments by Country and selected Status 
+This Map shares the selection option with the previous table which shows the users the transaction amount per country based on each selected status. 
+
+
